@@ -303,33 +303,3 @@
 .link {
   color: #ff6464;
 }
-
-
-
-@media (max-width: 768px) {
-  .header-inner {
-    justify-content: center;
-  }
-
-  .hero-inner {
-    flex-direction: column-reverse;
-    text-align: center;
-  }
-
-  .hero-text {
-    max-width: 100%;
-  }
-
-  .posts-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .work-card {
-    grid-template-columns: 1fr;
-  }
-
-  .hero-avatar {
-    width: 200px;
-    height: 200px;
-  }
-}
